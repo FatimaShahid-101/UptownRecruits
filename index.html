@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /></noscript>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,900&display=swap"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;1,900&display=swap"
+    /></noscript>
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap"
+    /></noscript>
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+    />
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+    /></noscript>
+
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /></noscript>
+
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/jquery.waypoints.min.js"></script>
+    <script defer src="js/index.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="/img/log-2x.png" type="image/x-icon" />
+    <title>Uptown Recruits - Fillipino Placement Firm</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav id="navbar" class="navbar">
+        <a class="navbar-brand" href="#">
+          <div class="navbar__logo-box">
+            <img
+              srcset="img/logo-1x.png 1x, img/log-2x.png 2x"
+              alt="Website Logo"
+              class="navbar__logo"
+              src="img/log-2x.png"
+            />
+            <h2 class="navbar__logo-text">Uptown Recruits</h2>
+          </div>
+        </a>
+        <input type="checkbox" id="check" />
+        <label for="check" class="navbar__checkbtn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <ul class="navbar__list">
+          <li><a href="index.html" class="navbar__close">&times;</a></li>
+          <li class="navbar__item navbar__item--active">
+            <a href="index.html" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__link js--scroll-to-about"
+              >About Us</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#process" class="navbar__link js--scroll-to-services"
+              >Process</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#features" class="navbar__link js--scroll-to-features"
+              >Features</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__link js--scroll-to-process"
+              >Our Services</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__link js--scroll-to-contact"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="header__content">
+        <h1 class="header__heading js--wp-0a">
+          Uptown Recruits - Delivering Expertise Across Sectors
+        </h1>
+        <p class="header__para js--wp-0b">
+          Your most trusted and reliable recruitment partner.
+        </p>
+        <a
+          href="#services"
+          class="header__btn js--scroll-to-services js--wp-0c"
+        >
+          Our Services
+        </a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="about-section js--section-about" id="about">
+        <h2 class="main__h2 about__heading">About Us</h2>
+        <div class="shape about__shape"></div>
+        <div class="about">
+          <div class="about__image js--wp-4">
+            <img
+              srcset="img/about-1x.jpg 1x, img/about-2x.jpg 2x"
+              alt="about"
+              class="about__img"
+              src="img/about-2x.jpg"
+            />
+          </div>
+          <div class="about__description js--wp-5">
+            <p class="about__paragraph">
+              Uptown Recruitments is a boutique HR firm offering you an
+              unparalleled personalized service. We also provide value-added
+              services as pre-screening of the candidates (at the required
+              location), reference checks, assistance in visa processing &
+              tie-up with agencies at preferred location to facilitate speedy
+              execution. We focus on fulfilling the staffing requirement of
+              corporates and companies, across boundaries. We specialize in
+              prompt. completion of required mandates by providing candidates
+              that are an exact match.
+            </p>
+            <div class="about__vision">
+              <h3 class="about__vision-heading">Our Vision</h3>
+              <p class="about__vision-para">
+                We believe that when our people thrive, so do our clients and
+                our communities. Our objective is to empower individuals to
+                inspire their colleagues, friends, families and communities
+                through their work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="process js--section-process" id="process">
+        <h2 class="main__h2 process__heading">Our work process</h2>
+        <div class="shape"></div>
+        <div class="process__steps-box">
+          <div class="process__steps js--wp-1">
+            <svg class="process__steps-icon">
+              <use xlink:href="img/sprite.svg#icon-phone"></use>
+            </svg>
+            <div class="process__steps-text">
+              <h3 class="process__steps-name">Recruitment Queries</h3>
+              <p class="process__steps-status">
+                Uptown Recruits believes in human capital solutions that
+                guarantee the most successful and expedient solution in any
+                given industry and geography. We generate candidate flow to
+                compliment any contingent search.
+              </p>
+            </div>
+          </div>
+          <div class="process__steps js--wp-2">
+            <svg class="process__steps-icon">
+              <use xlink:href="img/sprite.svg#icon-mail2"></use>
+            </svg>
+            <div class="process__steps-text">
+              <h3 class="process__steps-name">Contract and Visa Processing</h3>
+              <p class="process__steps-status">
+                Matching individual's previous experience with job description
+                and expected role followed by telephonic interviews. The final
+                selected candidate is provided with visa assistance and travel
+                support.
+              </p>
+            </div>
+          </div>
+          <div class="process__steps js--wp-3">
+            <svg class="process__steps-icon">
+              <use xlink:href="img/sprite.svg#icon-aircraft-landing"></use>
+            </svg>
+            <div class="process__steps-text">
+              <h3 class="process__steps-name">Arrival of the candidate</h3>
+              <p class="process__steps-status">
+                Assisting through the visa and processing our team receives the
+                candidate and after clearing medical fitness and orientation
+                about environment the candidate continues with the contract.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features js--section-features" id="features">
+        <h2 class="main__h2 features__heading">Why choose us?</h2>
+        <div class="shape"></div>
+        <div class="features__content">
+          <div class="features__steps">
+            <svg class="features__steps-icon">
+              <use xlink:href="img/sprite.svg#icon-switch"></use>
+            </svg>
+            <div class="features__steps-text">
+              <h3 class="features__steps-name">Easy Access</h3>
+              <p class="features__steps-status">
+                We let you get your desired recruitment done at very simple
+                steps.
+              </p>
+            </div>
+          </div>
+          <div class="features__steps">
+            <svg class="features__steps-icon">
+              <use xlink:href="img/sprite.svg#icon-hour-glass"></use>
+            </svg>
+            <div class="features__steps-text">
+              <h3 class="features__steps-name">Shorten time to hire</h3>
+              <p class="features__steps-status">
+                We manage to get the recruitment done in no time
+              </p>
+            </div>
+          </div>
+          <div class="features__steps">
+            <svg class="features__steps-icon">
+              <use xlink:href="img/sprite.svg#icon-px"></use>
+            </svg>
+            <div class="features__steps-text">
+              <h3 class="features__steps-name">One stop shop</h3>
+              <p class="features__steps-status">
+                We offer a one-stop-shop recruitment platform for our clients.
+              </p>
+            </div>
+          </div>
+          <div class="features__steps">
+            <svg class="features__steps-icon">
+              <use xlink:href="img/sprite.svg#icon-medal"></use>
+            </svg>
+            <div class="features__steps-text">
+              <h3 class="features__steps-name">Diverse work force</h3>
+              <p class="features__steps-status">
+                Primetech enables our clients to choose from a wide pool of
+                skilled and semi-skilled workforce.
+              </p>
+            </div>
+          </div>
+          <div class="features__steps">
+            <svg class="features__steps-icon">
+              <use xlink:href="img/sprite.svg#icon-briefcase"></use>
+            </svg>
+            <div class="features__steps-text">
+              <h3 class="features__steps-name">Professional Staff</h3>
+              <p class="features__steps-status">
+                We make sure to get the right pick for your needs keeping high
+                professional standards.
+              </p>
+            </div>
+          </div>
+          <div class="features__steps">
+            <svg class="features__steps-icon">
+              <use xlink:href="img/sprite.svg#icon-retweet"></use>
+            </svg>
+            <div class="features__steps-text">
+              <h3 class="features__steps-name">Easy Contract renewals</h3>
+              <p class="features__steps-status">
+                We make sure to keep the visa and contract renewal to be a
+                hassle free process for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ready">
+        <h3 class="ready__heading">Let Us Get The Right Pick For You!</h3>
+        <p class="ready__para">
+          Being the best in our field means that we are committed to every
+          project, we have ingenious ideas that become reality and we make every
+          client happy.
+        </p>
+        <a href="#contact" class="ready__btn js--scroll-to-contact"
+          >Contact Us!</a
+        >
+      </section>
+
+      <section class="services js--section-services" id="services">
+        <h2 class="main__h2 services__heading">Our services</h2>
+        <div class="shape"></div>
+        <div class="services__types-box">
+          <div class="services__types services__types--call js--wp-8a">
+            <div class="services__types-name">Call center</div>
+          </div>
+          <div class="services__types services__types--IT js--wp-8a">
+            <div class="services__types-name">IT Developer</div>
+          </div>
+          <div class="services__types services__types--engineer js--wp-8a">
+            <div class="services__types-name">Engineer</div>
+          </div>
+          <div class="services__types services__types--baby js--wp-8b">
+            <div class="services__types-name">Baby Sitting</div>
+          </div>
+          <div class="services__types services__types--chef js--wp-8b">
+            <div class="services__types-name">Chefs</div>
+          </div>
+          <div class="services__types services__types--fashion js--wp-8b">
+            <div class="services__types-name">Fashion Designer</div>
+          </div>
+          <div class="services__types services__types--hotel js--wp-8c">
+            <div class="services__types-name">Hotel Manager</div>
+          </div>
+          <div class="services__types services__types--graphic js--wp-8c">
+            <div class="services__types-name">Graphic Designer</div>
+          </div>
+          <div class="services__types services__types--care js--wp-8c">
+            <div class="services__types-name">Geriatric Care Staff</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="stats__content">
+          <div class="stats__div">
+            <svg class="stats__div-icon">
+              <use xlink:href="img/sprite.svg#icon-stack"></use>
+            </svg>
+            <div class="stats__div-number" data-target="170">15</div>
+            <div class="stats__div-line"></div>
+            <p class="stats__div-name">Clients</p>
+          </div>
+          <div class="stats__div">
+            <svg class="stats__div-icon">
+              <use xlink:href="img/sprite.svg#icon-retweet"></use>
+            </svg>
+            <div class="stats__div-number" data-target="300">34</div>
+            <div class="stats__div-line"></div>
+            <p class="stats__div-name">Jobs Posted</p>
+          </div>
+          <div class="stats__div">
+            <svg class="stats__div-icon">
+              <use xlink:href="img/sprite.svg#icon-briefcase"></use>
+            </svg>
+            <div class="stats__div-number" data-target="200">45</div>
+            <div class="stats__div-line"></div>
+            <p class="stats__div-name">Recruitments</p>
+          </div>
+          <div class="stats__div">
+            <svg class="stats__div-icon">
+              <use xlink:href="img/sprite.svg#icon-world"></use>
+            </svg>
+            <div class="stats__div-number" data-target="6000">120</div>
+            <div class="stats__div-line"></div>
+            <p class="stats__div-name">Followers</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact js--section-contact" id="contact">
+        <div class="contact__info">
+          <h3 class="contact__info-heading">Contact Us</h3>
+          <p class="contact__info-para">
+            If there’s anything you’d like to know about what we do, how we do
+            it, or how we can help you, please get in touch.
+          </p>
+          <div class="contact__icons">
+            <div class="contact__info-center">
+              <svg class="contact__info-icon">
+                <use xlink:href="img/sprite.svg#icon-mobile2"></use>
+              </svg>
+              <p class="contact__info-number">+92-332-5529829</p>
+            </div>
+            <div class="contact__info-center">
+              <svg class="contact__info-icon">
+                <use xlink:href="img/sprite.svg#icon-mail"></use>
+              </svg>
+              <p class="contact__info-number">info@uptownrecruits.com</p>
+            </div>
+            <div class="contact__info-center">
+              <svg class="contact__info-icon">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <p class="contact__info-number">
+                Srene Plaza - Bahria Town phase 4 - Islamabad
+              </p>
+            </div>
+            <div class="contact__info-center">
+              <svg class="contact__info-icon">
+                <use xlink:href="img/sprite.svg#icon-world"></use>
+              </svg>
+              <p class="contact__info-number">www.uptownrecruits.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact__form-div js--wp-10">
+          <h3 class="contact__form-heading">Get in touch!</h3>
+          <form action="/" class="contact__form" id="form" method="POST">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="contact__form-input"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="contact__form-input"
+              placeholder="Your Email Adress"
+              required
+            />
+            <input
+              type="number"
+              name="number"
+              id="number"
+              class="contact__form-input"
+              placeholder="Your Contact Number"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              class="contact__form-input contact__form-input--message"
+              placeholder="Your Message"
+              rows="3"
+            ></textarea>
+            <button class="contact__form-btn" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__social">
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a
+              href="https://m.facebook.com/uptownrecruits/?tsid=0.4800618214925376&source=result"
+              class="footer__social-link"
+            >
+              <svg class="footer__social-icon">
+                <use xlink:href="img/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              href=" https://twitter.com/RecruitsUptown?s=08"
+              class="footer__social-link"
+            >
+              <svg class="footer__social-icon">
+                <use xlink:href="img/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              href="https://www.instagram.com/uptownrecruits/"
+              class="footer__social-link"
+            >
+              <svg class="footer__social-icon">
+                <use xlink:href="img/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              href="https://www.linkedin.com/mwlite/company/uptown-recruiting"
+              class="footer__social-link"
+            >
+              <svg class="footer__social-icon">
+                <use xlink:href="img/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <ul class="footer__links-list">
+          <li class="footer__links-item">
+            <a href="#about" class="footer__links-link js--scroll-to-process"
+              >About Us</a
+            >
+          </li>
+          <li class="footer__links-item">
+            <a href="#process" class="footer__links-link js--scroll-to-about"
+              >Process</a
+            >
+          </li>
+          <li class="footer__links-item">
+            <a
+              href="#features"
+              class="footer__links-link js--scroll-to-features"
+              >Features</a
+            >
+          </li>
+          <li class="footer__links-item">
+            <a
+              href="#services"
+              class="footer__links-link js--scroll-to-services"
+              >Our Services</a
+            >
+          </li>
+          <li class="footer__links-item">
+            <a href="#contact" class="footer__links-link js--scroll-to-contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer__legal">
+        2023 © Uptown Recruits. All rights reserved.
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
